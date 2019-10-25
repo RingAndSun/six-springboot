@@ -19,7 +19,7 @@ public class Category {
     @Column(name = "id")
     int id;
 
-    String name;
+    private String name;
 
     public int getId() {
         return id;

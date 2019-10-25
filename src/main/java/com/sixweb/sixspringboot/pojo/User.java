@@ -16,10 +16,10 @@ public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id")
-    int id;
+    private int id;
 
-    String username;
-    String password;
+    private String username;
+    private String password;
 
     public int getId() {
         return id;
