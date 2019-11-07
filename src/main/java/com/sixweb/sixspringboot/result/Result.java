@@ -5,7 +5,7 @@ package com.sixweb.sixspringboot.result;
  */
 public class Result<T> {
     private int code;
-
+    private String msg;
     private T data;
 
     public Result(int code) {
